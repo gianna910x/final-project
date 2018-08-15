@@ -1054,7 +1054,15 @@ ul li.filter{
     line-height: 3rem;
 }
 
+.btn-group{
+    /* margin-left: auto;
+    margin-right: auto;  */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 
+}
 
 /*=======================================================================
                     Cantact Us Page Style
