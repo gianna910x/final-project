@@ -50,6 +50,13 @@ elif answer == "sleep":
                 print("you close your eyes and listen to the birds singing their songs outside of your window. soon you pass out again, another day wasted.")
             elif answer == "call friends":
                 print("you dial your best friends number it rings twice before she picks up, she asks if you're ok, and you reply saying you felt a bit lonely and were feeling sad. she immediately invites herself over and brings wine to have fun. you're happy you called her because she can make your day better more than anyone")
+        elif answer == "get going":
+            print ("you decide to get going to work, you arrive to work ad theres only 10 other people there, you find out they all called in sick, but luckily for you the boss is paying overtime for all the people who decided to come in. The days goes by fairly quickly, you spend most of it daydreaming, finally its time to go bed and youre a bit better than that morning. Your coworkers invite you out to drink.")
+            answer = input("Enter 'go out'or 'go home':")
+            if answer == "go out":
+                print ("you decide to go out and have a blast with your coworkers, its past midnight when you stumble home, you find your way to the bed and pass out. ready for the next day.")
+            elif answer == "go home":
+                print("you politely reject the offer, you dont want to bother your coworkerswith your problems, and youd rather keep a distance from people who could potentially hurt you. you go home and watch some old movies in the dark and chomp out some popcorn. you feel satisfeid but part of you wishes you were bold enough to go drinking with your coworkers.")
     elif answer == "miss it":
         print("you roll over, and close our eyes trying to keep the tears from drowning you again. your stomach rumbles but you have no energy, you dont care about your own health. do you go eat or starve yourself")
         answer = input("Enter 'eat'or'starve':")
