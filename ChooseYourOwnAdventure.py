@@ -1,4 +1,5 @@
 #shoutout to Tania for not giving up on her code
+TRACE_BASE = "/home/chris/ab/gamemenu.py
 start = '''
 "You just woke up, its 7:30am, you you want to get up or sleep"
 '''
